@@ -4,7 +4,7 @@ A real-time face detection project that uses OpenCV Haar Cascades to detect face
 
 ---
 
-# Features
+## Features
 
 - Real-time face detection using webcam
 - Automatic image capture when a face is detected
@@ -14,7 +14,7 @@ A real-time face detection project that uses OpenCV Haar Cascades to detect face
 
 ---
 
-## 🛠 Requirements
+##  Requirements
 
 - Python 3.x
 - OpenCV
@@ -24,28 +24,27 @@ A real-time face detection project that uses OpenCV Haar Cascades to detect face
 
 Install OpenCV:
 
-```bash
-pip install opencv-python
-📂 How It Works
+
+How It Works
 Downloads Haar Cascade file if not available
 Opens webcam feed
 Detects faces in real-time
 Draws bounding boxes around detected faces
 Saves captured images after a delay to avoid duplicates
-▶️ Run Project
+Run Project
 python main.py
 📸 Output
 
 Captured images will be saved automatically in the directory you define:
 
 save_path = "Put Your Path In Order To Save"
-⚙️ Configuration
+ Configuration
 
 You can adjust:
 
 capture_delay → time between saved images
 scaleFactor and minNeighbors → detection sensitivity
-📌 Notes
+Notes
 Press ESC to exit the program
 Make sure webcam is enabled and accessible
 First run will download Haar Cascade file automatically
