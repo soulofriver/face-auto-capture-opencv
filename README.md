@@ -33,12 +33,16 @@ Install OpenCV:
  -Saves captured images after a delay to avoid duplicates
  -Run Project
  -python main.py
- 
+
+---
+
  ##Output
 
  -Captured images will be saved automatically in the directory you define:
 
   save_path = "Put Your Path In Order To Save"
+
+---
 
  ##Configuration
 
@@ -46,6 +50,8 @@ You can adjust:
 
 capture_delay → time between saved images
 scaleFactor and minNeighbors → detection sensitivity
+
+---
 
 ##Notes
  -Press ESC to exit the program
