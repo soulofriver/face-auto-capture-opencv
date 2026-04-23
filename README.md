@@ -54,6 +54,8 @@ scaleFactor and minNeighbors → detection sensitivity
 ---
 
 Notes
+
  -Press ESC to exit the program
+ 
  -Make sure webcam is enabled and accessible
  -First run will download Haar Cascade file automatically
