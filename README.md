@@ -36,7 +36,7 @@ Install OpenCV:
 
 ---
 
- ##Output
+Output
 
  -Captured images will be saved automatically in the directory you define:
 
@@ -44,7 +44,7 @@ Install OpenCV:
 
 ---
 
- ##Configuration
+Configuration
 
 You can adjust:
 
@@ -53,7 +53,7 @@ scaleFactor and minNeighbors → detection sensitivity
 
 ---
 
-##Notes
+Notes
  -Press ESC to exit the program
  -Make sure webcam is enabled and accessible
  -First run will download Haar Cascade file automatically
